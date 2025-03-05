@@ -10,8 +10,8 @@ var entity_info = {
 	"status": {
 		"strength":"",
 		"dexterity":"",
-		"constituition":"",
-		"inteligence":"",
+		"constitution":"",
+		"intelligence":"",
 		"wisdom":"",
 		"charisma":"",
 	},
