@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://b28480mwpuo6e"]
+[gd_scene load_steps=3 format=3 uid="uid://b28480mwpuo6e"]
+
+[ext_resource type="PackedScene" uid="uid://bfbhdhnv5uq6i" path="res://Scenes/player.tscn" id="1_jbw0w"]
 
 [sub_resource type="TileSet" id="TileSet_epgse"]
 
@@ -6,3 +8,6 @@
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_set = SubResource("TileSet_epgse")
+
+[node name="player" parent="." instance=ExtResource("1_jbw0w")]
+position = Vector2(243, 147)
